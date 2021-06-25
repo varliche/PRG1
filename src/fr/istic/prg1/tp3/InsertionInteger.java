@@ -45,8 +45,7 @@ public class InsertionInteger {
 		}
 		if(value == this.array[i]) {
 			return false;
-		}
-		else {
+		}else {
 			++this.tailleReelleTab;
 			//System.out.println("Taille = " + this.tailleReelleTab + "	i = " + i + "	value = " + value);
 			for( int j = this.tailleReelleTab -1 ; j > i ; --j) {
@@ -64,8 +63,7 @@ public class InsertionInteger {
 			if(sc != -1) {
 				this.insert(sc);
 				//on met this pour "parler" d'une fonction appartenant à la classe dans laquelle on écrit
-			}
-			else {
+			}else {
 				scanner.close();
 				return;
 			}
